@@ -1,4 +1,4 @@
-package org.example.lamdba;
+package org.example.lambda;
 
 public class AppleGreenColorPredicate implements ApplePredicate{
     @Override

@@ -1,4 +1,4 @@
-package org.example.lamdba;
+package org.example.lambda;
 
 import java.util.Arrays;
 import java.util.List;

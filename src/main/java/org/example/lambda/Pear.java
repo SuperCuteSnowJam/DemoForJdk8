@@ -1,6 +1,9 @@
-package org.example.lamdba;
+package org.example.lambda;
 
-public class Peach {
+import java.util.Arrays;
+import java.util.List;
+
+public class Pear {
 
     private String color;
 
@@ -8,10 +11,11 @@ public class Peach {
 
     private String variety;
 
+
     /**
      * 空构造函数
      */
-    public Peach(){
+    public Pear(){
 
     }
 
@@ -21,7 +25,7 @@ public class Peach {
      * @param weight
      * @param variety
      */
-    public Peach(String color,int weight,String variety){
+    public Pear(String color,int weight,String variety){
         this.color = color;
         this.weight = weight;
         this.variety = variety;
@@ -51,4 +55,15 @@ public class Peach {
         this.variety = variety;
     }
 
+    public static List<Pear> sampleList(){
+        return Arrays.asList(
+                new Pear("黄色",150,"雪花梨"),
+                new Pear("黄色",149,"雪花梨"),
+                new Pear("黄色",135,"雪花梨"),
+                new Pear("黄色",136,"雪花梨"),
+                new Pear("白色",155,"京白梨"),
+                new Pear("白色",145,"京白梨"),
+                new Pear("白色",142,"京白梨")
+        );
+    }
 }
